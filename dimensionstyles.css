@@ -1,0 +1,25 @@
+.box{
+    max-height: 100px;
+    border: 1px solid black;
+    width: 500px;
+    overflow: scroll;
+
+    /* if size of content exceeds the max height, the tsxt will overflow */
+
+}
+
+.mydiv{
+    margin: 20px;
+    min-height: 100px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.divi{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    overflow: auto;
+   
+}
